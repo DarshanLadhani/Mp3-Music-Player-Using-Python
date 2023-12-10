@@ -91,8 +91,9 @@ class MusicPlayerApp(CTk,Tk):
         self.search_entry.grid(row=3, column=0, pady=10, padx=20, columnspan=3, sticky="nsew")
 
         # Search button
-        img=Image.open(r"C:\Users\Darshan\Desktop\Darshan(practice)\project\magnifying-glass.png")
-        self.search_button = CTkButton(self.frame, text="Search", font=CTkFont(size=16,weight="bold"), width=200,image=CTkImage(dark_image=img,light_image=img))
+        search_image_path=os.path.join(os.path.dirname(__file__),"magnifying-glass.png")
+        search_image = CTkImage(light_image = Image.open(search_image_path))
+        self.search_button = CTkButton(self.frame, text="Search", font=CTkFont(size=16,weight="bold"), width=200,image=search_image)
         self.search_button.grid(row=4, column=0, padx=20, pady=10, columnspan=3)
 
         # Frame 1
