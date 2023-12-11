@@ -172,7 +172,7 @@ class MusicPlayerApp(CTk,Tk):
         self.stop_button = CTkButton(self.frame2, image=image4, text="", width=60, height=50)
         self.stop_button.grid(row=1, column=0,padx=(20,25))
 
-        Queue_image_path = os.path.join(os.path.dirname(__file__), "rightarrow.png")
+        Queue_image_path = os.path.join(os.path.dirname(__file__), "queue.png")
         image5 = CTkImage(light_image=Image.open(Queue_image_path), size=(30, 30))
         self.queue_button = CTkButton(self.frame2, image=image5, text="", width=60, height=50)
         self.queue_button.grid(row=1, column=4,padx=(25,20))
