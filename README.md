@@ -9,12 +9,12 @@ It enables users to browse, manage, and play MP3 files through a simple and intu
 
 Features
 
-Browsing: Browse and select MP3 files from a directory.
-Search Functionality: Search for specific songs within the playlist.
-Playback Controls: Play, pause, stop, skip, and go back to previous songs.
-Visual Controls: Volume control and progress bar for easy navigation through tracks.
-Appearance Modes: Choose between Light, Dark, and System appearance modes.
-Also Includes shuffle, repeat & autoplay functionalities.
+Browsing: Browse and select MP3 files from a directory.<br>
+Search Functionality: Search for specific songs within the playlist.<br>
+Playback Controls: Play, pause, stop, skip, and go back to previous songs.<br>
+Visual Controls: Volume control and progress bar for easy navigation through tracks.<br>
+Appearance Modes: Choose between Light, Dark, and System appearance modes.<br>
+Also Includes shuffle, repeat & autoplay functionalities.<br>
 
 Installation
 
