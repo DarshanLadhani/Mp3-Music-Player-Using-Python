@@ -3,10 +3,8 @@ from tkinter import *
 import os
 from pygame import mixer
 from PIL import Image
-from queue import Queue
 import time
 import threading
-from threading import Thread
 from mutagen.mp3 import MP3
 import random
 
