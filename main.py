@@ -36,7 +36,7 @@ class MusicPlayerApp(CTk,Tk):
                 self.switch_repeat.configure(state=NORMAL)
                 self.switch_shuffle.configure(state=NORMAL)
 
-            app.after(1000, check_switches)
+            self.after(1000, check_switches)
 
         # Initialize variables and the window
         self.music_paused = False
@@ -179,6 +179,7 @@ class MusicPlayerApp(CTk,Tk):
         # Backend Functions
         # ... (add music, browse music, shuffle, play, pause etc...)
 
+
         # Browse music function
         def add_music():
             path = filedialog.askdirectory()
@@ -228,11 +229,11 @@ class MusicPlayerApp(CTk,Tk):
                 self.progress_scale.set(int(progress_percentage))
                 self.time_elapsed_label.configure(text=convert_seconds_to_time(current_time))
                 
-                app.after(1000, update_progress_scale) 
+                self.after(1000, update_progress_scale) 
                         
             elif self.music_paused:
                 self.progress_scale.set(self.progress_scale.get())
-                app.after(1000, update_progress_scale)
+                self.after(1000, update_progress_scale)
 
             else:
                 self.progress_scale.set(0)
